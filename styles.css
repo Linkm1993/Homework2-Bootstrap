@@ -1,0 +1,9 @@
+body { 
+    background: #b5c8ff 
+    !important; }
+.card { 
+    background-color: #f2f5f7; 
+}
+.jumbotron { background-color: #f2f5f7; 
+    border: 1px; border-color: #6c757d; border-style: solid;
+}
