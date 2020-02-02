@@ -1,9 +1,45 @@
 body { 
     background: #b5c8ff 
-    !important; }
+    !important; 
+}
+
 .card { 
-    background-color: #f2f5f7; 
+    background-color: #f2f5f7;
+    width: 18rem; display: inline-block; text-align: center; 
+    width: 100%;
 }
 .jumbotron { background-color: #f2f5f7; 
     border: 1px; border-color: #6c757d; border-style: solid;
+    width: auto;
 }
+
+.jumbotron.jumbotron-fluid {
+    margin-top: 3rem;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+
+ .footer {
+     margin-top: 10px;
+ }
+
+ *{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    }
+
+    .breadcrumb {
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        left:0;
+        margin: 0px;
+        padding:10px 70px 10px 70px;
+        width: 100%; /* Full width */
+        right: 0;
+        border: 1px; border-color: #6c757d; border-style: solid;
+
+    }
