@@ -1,8 +1,8 @@
 body { 
     background: #b5c8ff 
     !important; 
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 .card { 
@@ -11,32 +11,42 @@ body {
     width: 1000%;
 }
 .jumbotron { background-color: #f2f5f7; 
-    border: 1px; border-color: #6c757d; border-style: solid;
+    border: 1px; 
+    border-color: #6c757d; 
+    border-style: solid;
     width: 100%;
 }
 
 .jumbotron.jumbotron-fluid {
-    margin-top: 3rem;
-    
+    margin-bottom: 16px;
     
 }
 
 
 
  .footer {
-     margin-top: 10px;
+    background: #f2f5f7;
+    bottom: 0;
+    color: #6c757d;
+    left: 50%;
+    margin-left: -500px;
+    padding: 5px;
+    position: fixed;
+    width: 990px;
+
  }
 
 
 
     .breadcrumb {
-        top: 0; /* Position the navbar at the top of the page */
+        top: 0; 
         left:0;
         margin: 0px;
         padding:10px 70px 10px 70px;
-        width: 100%; /* Full width */
+        width: 100%; 
         right: 0;
-        border: 1px; border-color: #6c757d; border-style: solid;
+        border: 1px; border-color: #6c757d;
+         border-style: solid;
 
     }
 
@@ -51,4 +61,16 @@ body {
 .breadcrumb {
     margin: 0;
     padding: 0;
+}
+
+.columns {
+    background-color: #f2f5f7; 
+    border: 1px; 
+    border-color: #6c757d; 
+    border-style: solid;
+    width: 100%;
+}
+
+.img-fluid {
+    padding-bottom: 16px;
 }
